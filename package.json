@@ -1,0 +1,20 @@
+{
+  "name": "interventor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.7.7",
+    "mongoose": "^5.9.5",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "description": ""
+}
