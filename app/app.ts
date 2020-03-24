@@ -10,5 +10,5 @@ mongoose: npm install mongoose
 @types/mongoose: npm install @types/mongoose
 */ 
 
-CreateInterventor("Jorge", 22, "col. La Rosa", 3159-9436);
-//CreateBeneficiario("Jorge", "Ana", 18, "Ama de casa", "col. la pradera", 33986654);
+//CreateInterventor("Jorge", 22, "col. La Rosa", 31599436);
+CreateBeneficiario("Jorge", "Larisa Alfaro", 18, "Ama de casa", "col. la pradera", 33986654);

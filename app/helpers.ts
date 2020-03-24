@@ -1,7 +1,7 @@
 import mongoose = require("mongoose");
 import { resolve } from "dns";
 
-const uri: string = "mongodb+srv://ADMI:31579436@cluster0-mibza.azure.mongodb.net/test?retryWrites=true&w=majority"; // aqui usen su base de datos
+const uri: string = "mongodb+srv://ADMI:henriqueta@cluster0-mibza.azure.mongodb.net/Interventor?retryWrites=true&w=majority"; // aqui usen su base de datos
 
 export const connectMongoDB  = new Promise<void>(resolve => {
     mongoose.connect(uri,{ useNewUrlParser:true, useUnifiedTopology: true }, (err: any) => {

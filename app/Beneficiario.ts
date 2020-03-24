@@ -2,7 +2,7 @@ import mongoose = require("mongoose");
 import {IInterventor, getInterventor} from "./Interventor"
 import {connectMongoDB} from "./helpers"
 
-interface IProducts extends mongoose.Document { 
+interface IBeneficiarios extends mongoose.Document { 
     name: string;
     edad: number;
     ocupacion: string;
@@ -20,7 +20,7 @@ const BeneficiarioSchema = new mongoose.Schema({
     interventor: { type: mongoose.Schema.Types.ObjectId, ref: "Interventor" }
 });
 
-export const Beneficiario = mongoose.model<IProducts>("Interventor", BeneficiarioSchema);
+export const Beneficiario = mongoose.model<IBeneficiarios>("Beneficiario", BeneficiarioSchema);
 
 export const CreateBeneficiario = async function(nameInterventor: string, name: string, edad: number, ocupacion: string, direccion: string, telefono: number){
     //Conectar con la base de datos
